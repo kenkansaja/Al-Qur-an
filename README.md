@@ -32,6 +32,9 @@ Semoga bisa mengurangi dosa - dosa hamba
 
 <a href="https://t.me/kenkanasw"><img src="https://img.shields.io/badge/OWNER KAN-blue?style=for-the-badge&logo=Telegram" /></a>
 <a href="https://t.me/musikkugroup"><img src="https://img.shields.io/badge/SUPPORT GROUP-black?style=for-the-badge&logo=Telegram" /></a>
+<a href="https://t.me/musikkuchannel"><img src="https://img.shields.io/badge/SUPPORT CHANNEL-red?style=for-the-badge&logo=Telegram" /></a>
+<a href="http://t.me/BacaAlquranbot"><img src="https://img.shields.io/badge/AL-QUR'AN BOT-green?style=for-the-badge&logo=Telegram" /></a>
+
 
 
 ### CREDIT
