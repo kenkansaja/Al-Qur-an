@@ -10,7 +10,6 @@ import logging
 
 logging.basicConfig(filename="bot.log", format="%(asctime)s - %(levelname)s - %(message)s",
                         datefmt="%Y/%m/%d %I:%M:%S %p", level=0)
-bot_url = "https://t.me/"+bot_username
 error_img = "https://image.freepik.com/free-vector/error-neon-signs-style-text_118419-3023.jpg"
 
 BOT = telebot.TeleBot(f"{TOKEN}")
