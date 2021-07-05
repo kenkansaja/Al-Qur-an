@@ -2,6 +2,7 @@
 import telebot
 from telebot import types
 import urllib.request
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import time
 import json
 import os
