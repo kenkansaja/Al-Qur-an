@@ -94,8 +94,8 @@ def message_handler(message):
             open_page(text, *user_info, with_markup= not text.startswith(('ambil halaman')))
         except Exception as err:
             BOT.reply_to(message, err)
-    elif text in ['sumber']:
-        BOT.reply_to(message, "https://github.com/kenkannih/Al-Qur-an")
+    elif text in ['/repo']:
+        BOT.reply_to(message, "Kalau mau bikin bot sendiri kak nih reponya\nhttps://github.com/kenkannih/Al-Qur-an")
 
 @BOT.callback_query_handler(func=lambda call:True)
 def query_handler(call):
