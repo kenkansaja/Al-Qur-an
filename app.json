@@ -7,16 +7,6 @@
     "TOKEN": {
       "description": "Masukan Bot Token dari @BotFather",
       "required": true
-    },
-    "GROUP": {
-      "description": "Grup dukungan MusicPlayer Anda tanpa @ [skip ini jika Anda tidak punya]",
-      "required": false,
-      "value": "musikkugroup"
-    },
-    "CHANNEL": {
-      "description": "Updates Channel tanpa @ [skip ini jika Anda tidak punya]",
-      "required": false,
-      "value": "musikkuchannel"
     }
   }
 }
