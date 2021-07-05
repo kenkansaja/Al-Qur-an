@@ -5,7 +5,7 @@ import urllib.request
 import time
 import json
 import os
-from config import TOKEN, GROUP, CHANNEL
+from config import TOKEN
 
 BOT = telebot.TeleBot(f"{TOKEN}")
 
