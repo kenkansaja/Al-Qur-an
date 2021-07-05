@@ -12,7 +12,7 @@
 </p>  
 
 <p align="center">
-<img src="https://telegra.ph/file/1354c3253eb2bf185d28f.jpg">
+<img src="https://asset.kompas.com/data/photo/2015/06/25/1241485shutterstock-144203029780x390.jpg">
 <p>
 
 🇰 🇦 🇱 🇦 🇺   🇩 🇪 🇵 🇱 🇴 🇾  
