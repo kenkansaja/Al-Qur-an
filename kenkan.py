@@ -30,7 +30,7 @@ def send_page(user_id, first_name, chat_id,
                     if with_markup else None
     back_button = button(text="◀️Sebelumnya", callback_data=f"{page_number - 1} {user_id} {first_name}")\
                     if with_markup else None
-    start_button = button(text="Pembukaan Al-Qur'an🕋", callback_data=f"{1} {user_id} {first_name}")\
+    start_button = button(text="Pembukaan Al-Qur'an🕋", callback_data="/buka")\
                     if with_markup else None
     buttons_list = [start_button] if is_start else [back_button, next_button]\
                     if with_markup else []
