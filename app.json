@@ -1,0 +1,22 @@
+{
+  "name": "Al-Qur'an",
+  "description": "Bot Al-Qur'an telegram open source",
+  "logo": "https://telegra.ph/file/b0abf1b9bec33146e4288.jpg",
+  "repository": "https://github.com/kenkannih/Al-Qur-an",
+  "env": {
+    "TOKEN": {
+      "description": "Masukan Bot Token dari @BotFather",
+      "required": true
+    },
+    "GROUP": {
+      "description": "Grup dukungan MusicPlayer Anda tanpa @ [skip ini jika Anda tidak punya]",
+      "required": false,
+      "value": "musikkugroup"
+    },
+    "CHANNEL": {
+      "description": "Updates Channel tanpa @ [skip ini jika Anda tidak punya]",
+      "required": false,
+      "value": "musikkuchannel"
+    }
+  }
+}
