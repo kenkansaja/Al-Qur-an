@@ -86,15 +86,15 @@ def command_handler(message):
 def message_handler(message):
     text = str(message.text)
     user_info = get_info(message)
-    if text.startswith("Buka Al-Qur'an"):
+    if text.startswith("/buka"):
         send_page(*user_info,
                     page_number=1, send=True)
-    elif text.startswith(('buka halaman', 'ambil halaman', 'buka halaman', 'ambil halaman')):
+    elif text.startswith(('buka halaman', 'ambil halaman')):
         try:
-            open_page(text, *user_info, with_markup= not text.startswith(('ambil halaman', 'ambil halaman')))
+            open_page(text, *user_info, with_markup= not text.startswith(('ambil halaman')))
         except Exception as err:
             BOT.reply_to(message, err)
-    elif text in ['sumber', 'sumber']:
+    elif text in ['sumber']:
         BOT.reply_to(message, "https://github.com/kenkannih/Al-Qur-an")
 
 @BOT.callback_query_handler(func=lambda call:True)
@@ -110,7 +110,7 @@ def query_handler(call):
 
 
 while True:
-    print(f"Start")
+    print("Bot sudah siap")
     try:
         BOT.polling(none_stop=True, interval=0, timeout=0)
     except Exception as err:
