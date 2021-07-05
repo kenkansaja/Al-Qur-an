@@ -2,7 +2,6 @@
 import telebot
 from telebot import types
 import urllib.request
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import time
 import json
 import os
@@ -76,14 +75,6 @@ def get_info(ob):
 @BOT.message_handler(commands=['start', 'help'])
 def command_handler(message):
     text = str(message.text)
-    reply_markup=InlineKeyboardMarkup(
-      [
-        [
-          InlineKeyboardButton("💌CHANNEL", url=f"t.me/{CHANNEL}"),
-          InlineKeyboardButton("💬GROUP", url=f"t.me/{GROUP}")
-        ]
-      ]
-    )
     user_info = get_info(message)
     if text.startswith(('/start')):
         send_page(*user_info,
